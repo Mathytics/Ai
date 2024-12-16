@@ -13,7 +13,7 @@ async function sendMessage() {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
-            "Authorization": "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"  // Replace with your API key
+            "Authorization": "Bearer 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"  // Replace with your API key
         },
         body: JSON.stringify({
             model: "gpt-3.5-turbo",
